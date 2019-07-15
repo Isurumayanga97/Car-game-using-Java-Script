@@ -3,7 +3,8 @@ $(function() {
 
     var anim_id;
 
-    //saving dom objects to variables
+    // object saving variable
+
     var container = $('#container');
     var car = $('#car');
     var car_1 = $('#car_1');
@@ -16,7 +17,7 @@ $(function() {
     var restart_btn = $('#restart');
     var score = $('#score');
 
-    //saving some initial setup
+    //saving  initial setup
     var container_left = parseInt(container.css('left'));
     var container_width = parseInt(container.width());
     var container_height = parseInt(container.height());
@@ -36,7 +37,7 @@ $(function() {
     var move_up = false;
     var move_down = false;
 
-    /* ------------------------------GAME CODE STARTS HERE------------------------------------------- */
+    /* ------------------------------Open Game code------------------------------------------- */
 
     /* Move the cars */
     $(document).on('keydown', function(e) {
